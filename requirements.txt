@@ -1,0 +1,9 @@
+# Runtime dependency: online Have I Been Pwned k-anonymity checks.
+requests>=2.31.0
+
+# Development / testing.
+pytest>=8.0.0
+
+# Everything else used by this project is Python standard library and needs
+# no installation: argparse, getpass, hashlib, math, re, string, dataclasses,
+# pathlib, collections.abc, enum, sys.

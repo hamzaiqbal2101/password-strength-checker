@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "password-strength-checker"
+version = "1.0.0"
+description = "Production-style password strength checker with entropy, breach, and pattern analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hamza Iqbal" }]
+dependencies = ["requests>=2.31.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+password-strength-checker = "password_strength_checker.cli:main"
+
+[tool.setuptools]
+packages = ["password_strength_checker"]
