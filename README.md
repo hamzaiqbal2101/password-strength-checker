@@ -14,6 +14,14 @@ with k-anonymity), and **structural pattern detection** into a single
 The tool is engineered around one rule: **the password itself is never
 printed, stored, or transmitted.**
 
+This is the first project in a cybersecurity portfolio:
+
+1. **Password Strength Checker** (this project)
+2. [File Integrity Checker](https://github.com/hamzaiqbal2101/file-integrity-checker)
+3. [File Encryptor](https://github.com/hamzaiqbal2101/file-encryptor)
+4. [Subdomain Enumerator](https://github.com/hamzaiqbal2101/subdomain-enumerator)
+5. [Port Scanner](https://github.com/hamzaiqbal2101/portscanner)
+
 ## Features
 
 - **Entropy estimation** - `entropy = length * log2(pool_size)` with
